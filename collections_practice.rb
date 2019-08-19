@@ -38,6 +38,11 @@ def sum_array(array)
   sum
 end
 
-def add_s
-  
-end  
+def add_s(array)
+  array.collect do |s| 
+    if array.include?("feet")
+end
+
+
+
+
