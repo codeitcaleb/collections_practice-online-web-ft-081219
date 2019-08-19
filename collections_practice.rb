@@ -30,10 +30,12 @@ def find_a(array)
 end
 
 def sum_array(array)
+  sum = 0 
+  
   array.each do |a| 
-    sum = a + a 
+    sum += a 
   end
-  return sum
+  sum
 end
 
 def add_s
