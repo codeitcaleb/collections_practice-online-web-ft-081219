@@ -14,7 +14,7 @@ def swap_elements
 
 end
   
-def reverse-array
+def reverse_array
 
 end
 
