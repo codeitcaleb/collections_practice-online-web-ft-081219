@@ -39,8 +39,11 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect do |s| 
-    if array.include?("feet")
+  array.collect do |word| 
+    if array[1] == word
+      word 
+    else 
+      s + "s"
 end
 
 
